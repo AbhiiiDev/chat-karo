@@ -1,5 +1,7 @@
 import {createBrowserRouter, RouteObject} from 'react-router-dom';
 import HomePage from '../views/HomePage';
+import React from 'react';
+import Chat from '../components/Chat';
 
 
 
@@ -10,6 +12,10 @@ const routes:RouteObject[]=[
             {
                 path:"",
                 element:<HomePage/>,
+            },
+            {
+                path:"/chat",
+                element:<Chat/>
             }
         ]
 
