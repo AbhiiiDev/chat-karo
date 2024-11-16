@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import {io} from 'socket.io-client';
 
-const socketServerUrl="http://localhost:8000";
+const socketServerUrl="http://localhost:8002";
 
 interface UseSocket{
     messages:string[],
